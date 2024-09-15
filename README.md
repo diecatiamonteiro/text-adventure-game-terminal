@@ -30,7 +30,7 @@ Key features include:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/chronicles-of-forgotten-lands.git
+   git clone git@github.com:diecatiamonteiro/text-based-game.git
    ```
 
 2. Install the required dependencies:
