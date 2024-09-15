@@ -71,9 +71,9 @@ Key features include:
 
 ## Game preview
 
-#### Intro
+#### Intro and Rules
 
-![Game Intro](/screenshots/intro.png)
+![Game Intro and Rules](/screenshots/intro.png)
 
 #### Riddle
 
