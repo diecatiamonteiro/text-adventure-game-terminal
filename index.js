@@ -14,7 +14,7 @@
 import chalk from "chalk";
 import readlineSync from "readline-sync";
 
-// ---------------------------------------------------------------------------------------------- 1. GLOBAL VARIABLES & CONSTANTS
+// ---------------------------------------------------------------------------------------------- 1. GLOBAL VARIABLES
 
 // Contains details (description, ASCII art, options, riddles) for each of the 3 scenarios
 const scenarios = {
@@ -208,7 +208,7 @@ const villageObjects = [
 // A boolean flag used to determine whether the game should exit or continue running. When shouldExit is falsem the game continues to run. When shouldExit is true, the game stops running, and the player is either exiting the game.
 let shouldExit = false;
 
-// ---------------------------------------------------------------------------------------------- 2. CORE FUNCTIONS (KEY TO GAME FLOW)
+// ---------------------------------------------------------------------------------------------- 2. KEY FUNCTIONS
 
 // Starts the game by initializing the player object and repeatedly calling the chooseScenario function until the player chooses to exit.
 function startGame() {
@@ -424,7 +424,7 @@ function exitGame() {
   shouldExit = true;
 }
 
-// ---------------------------------------------------------------------------------------------- 3. SUPPORTING/HELPER FUNCTIONS
+// ---------------------------------------------------------------------------------------------- 3. SUPPORTING FUNCTIONS
 
 // Presents a riddle to the player, and if answered correctly, allows them to collect the associated item.
 function solveRiddle(player, scenario, item, riddleIndex) {
@@ -714,7 +714,7 @@ function showTitleAndRules() {
   console.clear();
   console.log(
     chalk.green(`
-      ▗▄▄▖    ▗▖ ▗▖    ▗▄▄▖      ▗▄▖     ▗▖  ▗▖    ▗▄▄▄▖     ▗▄▄▖    ▗▖       ▗▄▄▄▖     ▗▄▄▖             ▗▄▖     ▗▄▄▄▖            
+       ▗▄▄▖    ▗▖ ▗▖    ▗▄▄▖      ▗▄▖     ▗▖  ▗▖    ▗▄▄▄▖     ▗▄▄▖    ▗▖       ▗▄▄▄▖     ▗▄▄▖             ▗▄▖     ▗▄▄▄▖            
       ▐▌       ▐▌ ▐▌    ▐▌ ▐▌    ▐▌ ▐▌    ▐▛▚▖▐▌      █      ▐▌       ▐▌       ▐▌       ▐▌               ▐▌ ▐▌    ▐▌               
       ▐▌       ▐▛▀▜▌    ▐▛▀▚▖    ▐▌ ▐▌    ▐▌ ▝▜▌      █      ▐▌       ▐▌       ▐▛▀▀▘     ▝▀▚▖            ▐▌ ▐▌    ▐▛▀▀▘            
       ▝▚▄▄▖    ▐▌ ▐▌    ▐▌ ▐▌    ▝▚▄▞▘    ▐▌  ▐▌    ▗▄█▄▖    ▝▚▄▄▖    ▐▙▄▄▖    ▐▙▄▄▖    ▗▄▄▞▘            ▝▚▄▞▘    ▐▌               
@@ -1008,6 +1008,6 @@ function failureMessage(scenario) {
   );
 }
 
-// ---------------------------------------------------------------------------------------------- 6. START PLAYING GAME
+// ---------------------------------------------------------------------------------------------- 6. PLAYING GAME
 
 startGame();
