@@ -1,6 +1,6 @@
-# Chronicles of Forgotten Lands - A Text-Based Adventure Game
+# Chronicles of Forgotten Lands - A Terminal-Based Text Adventure Game
 
-Chronicles of Forgotten Lands is a terminal-based adventure game that allows players to explore three mystical realms: a haunted castle, a desert island, and a forgotten village. The objective is to solve riddles, collect items, and unlock paths to complete each realm's quest. The player must gather magical objects in each realm to win the game.
+Chronicles of Forgotten Lands is a terminal-based text adventure game that allows players to explore three mystical realms: a haunted castle, a desert island, and a forgotten village. The objective is to solve riddles, collect items, and unlock paths to complete each realm's quest. The player must gather magical objects in each realm to win the game.
 
 ![Game Title](/screenshots/game-title.png)
 
